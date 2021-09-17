@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from './components/Navbar';
 import Form from './components/Form';
 import Table from './components/Table';
@@ -12,8 +12,8 @@ function App() {
 				<h1>Restaurant Analyser</h1>
 				<Navbar />
 				<Switch>
-					<Route path="/restaurant-analyser/" exact component={() => <Form />} />
-					<Route path="/restaurant-analyser/table" exact component={() => <Table />} />
+					<Route path="/" exact component={() => <Form />} />
+					<Route path="/table" exact component={() => <Table />} />
 				</Switch>
 			</Router>
 	  	</div>
