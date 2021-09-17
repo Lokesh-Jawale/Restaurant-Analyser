@@ -1,0 +1,10 @@
+.App {
+	height: 100%;
+	padding-top: 2em;
+}
+
+.App h1{
+	text-align: center;
+	margin-bottom: 1em;
+	color: rgba(0, 0, 0, 0.719);
+}

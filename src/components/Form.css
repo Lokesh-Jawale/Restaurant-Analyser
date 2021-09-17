@@ -1,0 +1,158 @@
+.form {
+	background: #F5F5F5;
+    padding: 1.5em 0;
+    height: fit-content;
+}
+
+.form__info {
+    margin-left: 2em;
+}
+
+.form__header {
+    color: #2A62B7;
+    font-size: 20px;
+}
+
+.form__description {
+    margin-top: 4px;
+    color: #929292;
+    font-size: 14px;
+}
+
+.form__container {
+    margin: 1em;
+    padding: 1em 0.5em;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.form__container__col {
+    flex: 50%;
+}
+
+.form__customer__number {
+    display: flex;
+    width: 92%;
+    /* align-items: center; */
+}
+
+.form__customer__number input {
+    width: 100% !important;
+    height: 34px !important;
+    margin-left: 1em;
+}
+
+.form__container__flag {
+    width: 100px;
+}
+
+.form__inputs {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.form__inputs label {
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 5px;
+}
+
+.form__inputs input{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    height: 30px;
+    width: 90%;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+input:hover, textarea:hover {
+    border-left: 2px solid #8870C9;
+}
+
+.form__rate__our__food {
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 10px;
+    padding-left: 0.5em;
+}
+
+.form__rating {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0.5em;
+    align-content: center;
+}
+
+.form__rating input {
+    display: inline-block;
+}
+
+.form__rating label {
+    display: inline-block;
+    margin: 0 2em 0 0.5em;
+    font-size: 14px;
+    color: rgb(63, 63, 63);
+}
+
+.customer__feedback__text {
+    display: inline-block;
+    height: 70px;
+    overflow-y: auto;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 90%;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.form__submit {
+    background: #48A44C 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    height: 32px;
+    width: 90px;
+    color: white;
+    border: none;
+    margin-top: 1em;
+    margin-left: 90%;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+.form__error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.emoji {
+    width: fit-content;
+    padding: 4px;
+    margin-top: 1em;
+    margin-left: 0.5em;
+    color: rgb(255, 77, 103);
+    box-shadow: 0 0 5px rgb(255, 126, 147);
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 720px) {
+    .form__container {   
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .form__submit {
+        margin: 2.5em auto 1em auto;
+    }
+
+    .form__rating {
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-left: 0.5em;
+        align-content: flex-start;
+    }
+}

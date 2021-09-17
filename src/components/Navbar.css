@@ -1,0 +1,19 @@
+.navbar {
+    background-color: rgba(222, 255, 169, 0.2);
+    width: 100%;
+    box-shadow: 0px 2px 2px #00000029;
+}
+
+.inactive {
+    display: inline-block;
+    text-decoration: none;
+    padding: 1em 3em;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 17px;
+}
+
+.active {
+    display: inline-block;
+    color: #8870C9;
+    border-bottom: 2px solid #8870C9;
+}
