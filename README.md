@@ -1,9 +1,9 @@
 # Restaurant Analyser
-[Click to start the webapp]("https://Lokesh-Jawale.github.io/restaurant-analyser")
+[Click to start app] (https://Lokesh-Jawale.github.io/restaurant-analyser).
 
 ### Preview
-![Preview image of Form tab](https://github.com/[Lokesh-Jawale]/[restaurant-analyser]/src/[images]/previewForm.png?raw=true)
-![Preview image of Table tab](https://github.com/[Lokesh-Jawale]/[restaurant-analyser]/src/[images]/previewTable.png?raw=true)
+![Preview image of Form tab](https://github.com/Lokesh-Jawale/restaurant-analyser/blob/master/src/images/previewForm.png)
+![Preview image of Table tab](https://github.com/Lokesh-Jawale/restaurant-analyser/blob/master/src/images/previewTable.png)
 
 ## Getting Started with Create React App
 
