@@ -5,7 +5,7 @@ import { Link, NavLink } from "react-router-dom";
 function Navbar() {
     return (
         <nav className="navbar">
-            <NavLink exact activeClassName="active" to="/restaurant-analyser" className="inactive">
+            <NavLink exact activeClassName="active" to="/restaurant-analyser/" className="inactive">
                 Form
             </NavLink>
             <NavLink exact activeClassName="active" to="/restaurant-analyser/table" className="inactive">
