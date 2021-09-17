@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# Restaurant Analyser
+[Click to start the webapp]("https://Lokesh-Jawale.github.io/restaurant-analyser")
+
+### Preview
+![Preview image of Form tab](https://github.com/[Lokesh-Jawale]/[restaurant-analyser]/src/[images]/previewForm.png?raw=true)
+![Preview image of Table tab](https://github.com/[Lokesh-Jawale]/[restaurant-analyser]/src/[images]/previewTable.png?raw=true)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
