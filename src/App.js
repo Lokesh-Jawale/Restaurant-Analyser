@@ -12,8 +12,8 @@ function App() {
 				<h1>Restaurant Analyser</h1>
 				<Navbar />
 				<Switch>
-					<Route path="/" exact component={() => <Form />} />
-					<Route path="/table" exact component={() => <Table />} />
+					<Route path="/restaurant-analyser/" exact component={() => <Form />} />
+					<Route path="/restaurant-analyser/table" exact component={() => <Table />} />
 				</Switch>
 			</Router>
 	  	</div>
